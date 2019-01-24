@@ -1,6 +1,6 @@
 import React from 'react';
-import {robots} from './robots';
 import Card from './Card';
+import {robots} from './robots';
 
 const CardList = () => {
     
@@ -15,7 +15,7 @@ const CardList = () => {
                         name={robots[i].name} 
                         username={robots[i].username} 
                         email={robots[i].email}
-                        />
+                    />
                     );
                 })
             }       
