@@ -6,13 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgb(214, 221, 73) 0%, rgba(0,128,128,1) 100%); 
 }
 
 h1 {
   font-family: 'ZCOOL KuaiLe', cursive;
+  color: cornsilk;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+ 
